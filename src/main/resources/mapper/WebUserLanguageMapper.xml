@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.apdoer.channel.server.mapper.WebUserLanguageMapper">
+  <resultMap id="BaseResultMap" type="org.apdoer.channel.server.model.po.WebUserLanguagePo">
+    <id column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="locale" jdbcType="VARCHAR" property="locale" />
+  </resultMap>
+
+  <select id="queryUserLanguageByContact" resultMap="BaseResultMap">
+    SELECT
+    wul.user_id,
+    wul.locale
+    FROM
+    `web_user` AS wu
+    LEFT JOIN web_user_language AS wul ON wul.user_id = wu.id
+    WHERE
+    wu.email = #{contact} OR wu.phone = #{contact}
+  </select>
+</mapper>

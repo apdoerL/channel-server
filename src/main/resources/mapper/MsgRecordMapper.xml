@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.apdoer.channel.server.mapper.MsgRecordMapper">
+    <!-- CodeBuilder  Generated-->
+    <resultMap id="MsgRecordMap" type="org.apdoer.channel.server.model.po.MsgRecordPo">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+		<result column="CONTACT" property="contact" jdbcType="VARCHAR"/>
+        <result column="TEMPLATE_CODE" property="templateCode" jdbcType="VARCHAR"/>
+        <result column="LOCALE" property="locale" jdbcType="VARCHAR"/>
+        <result column="SUPPLIER" property="supplier" jdbcType="VARCHAR"/>
+        <result column="SUBJECT" property="subject" jdbcType="VARCHAR"/>
+        <result column="CONTENT" property="content" jdbcType="VARCHAR"/>
+        <result column="RESPONSE_TEXT" property="responseText" jdbcType="VARCHAR"/>
+        <result column="REQ_ID" property="reqId" jdbcType="VARCHAR"/>
+        <result column="RES_ID" property="resId" jdbcType="VARCHAR"/>
+        <result column="REMARK" property="remark" jdbcType="VARCHAR"/>
+        <result column="IP" property="ip" jdbcType="VARCHAR"/>
+        <result column="STATUS" property="status" jdbcType="TINYINT"/>
+        <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP"/>
+        <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        ID , CONTACT , TEMPLATE_CODE , LOCALE , SUPPLIER , SUBJECT , CONTENT , RESPONSE_TEXT , REQ_ID , RES_ID , 
+        REMARK , IP , STATUS , CREATE_TIME ,UPDATE_TIME
+    </sql>
+    <insert id="insert" parameterType="org.apdoer.channel.server.model.po.MsgRecordPo" keyProperty="id">
+    	<selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    	insert into t_msg_record (
+    		CONTACT, TEMPLATE_CODE , LOCALE , SUPPLIER , SUBJECT , CONTENT , RESPONSE_TEXT , REQ_ID , REMARK , IP , STATUS , CREATE_TIME ,UPDATE_TIME
+    	) values (
+    		#{contact,jdbcType=VARCHAR}, #{templateCode,jdbcType=VARCHAR}, #{locale,jdbcType=VARCHAR}, 
+    		#{supplier,jdbcType=VARCHAR}, #{subject,jdbcType=VARCHAR}, #{content,jdbcType=VARCHAR}, 
+    		#{responseText,jdbcType=VARCHAR}, #{reqId,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR}, 
+    		#{ip,jdbcType=TINYINT}, #{status,jdbcType=TINYINT}, now(3), now(3)
+    	)
+    </insert>
+    <select id="queryMsgRecordById" resultMap="MsgRecordMap" parameterType="java.lang.Long">
+        select
+        <include refid="Base_Column_List"/>
+        from t_msg_record
+        where id = #{value}
+    </select>
+    
+    <update id="update2Sended">
+        update t_msg_record
+         set 
+        	status = 1, 
+        	response_text = #{responseText,jdbcType=VARCHAR},
+        	res_id = #{resId,jdbcType=VARCHAR},
+        	update_time = now(3)
+        where id = #{id} and status = 0
+    </update>
+    
+    <update id="update2Sended4Ali">
+        update t_msg_record
+         set 
+        	status = 1, 
+        	response_text = #{responseText,jdbcType=VARCHAR},
+        	req_id = #{reqId,jdbcType=VARCHAR},
+        	res_id = #{resId,jdbcType=VARCHAR},
+        	update_time = now(3)
+        where id = #{id} and status = 0
+    </update>
+    
+    <update id="update2Success">
+        update t_msg_record
+         set 
+        	status = 2, 
+        	response_text = #{responseText,jdbcType=VARCHAR}, 
+        	update_time = now(3)
+        where id = #{id} and status = 1
+    </update>
+    
+    <update id="update2Failure">
+        update t_msg_record
+         set 
+        	status = 3, 
+        	response_text = #{responseText,jdbcType=VARCHAR}, 
+        	update_time = now(3)
+        where id = #{id} and status = 1
+    </update>
+    
+    <update id="update2Exception">
+        update t_msg_record
+         set 
+        	status = 4, 
+        	response_text = #{responseText,jdbcType=VARCHAR}, 
+        	update_time = now(3)
+        where id = #{id} and (status = 0 or status = 1) 
+    </update>
+
+</mapper>

@@ -1,0 +1,6 @@
+server:
+  port: 8005
+
+spring:
+  profiles:
+    active: dev

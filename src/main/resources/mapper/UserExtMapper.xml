@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.apdoer.channel.server.mapper.UserExtMapper">
+    <resultMap id="BaseResultMap" type="org.apdoer.channel.server.model.po.UserExtPo">
+        <id column="user_id" property="userId" jdbcType="INTEGER"/>
+        <result column="user_type" property="userType" jdbcType="TINYINT"/>
+        <result column="node_type" property="nodeType" jdbcType="TINYINT"/>
+        <result column="partner_type" property="partnerType" jdbcType="TINYINT"/>
+        <result column="country_code" property="countryCode" jdbcType="VARCHAR"/>
+        <result column="area_code" property="areaCode" jdbcType="VARCHAR"/>
+        <result column="krw_daily_limit" property="krwDailyLimit" jdbcType="DECIMAL"/>
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        user_id, user_type, node_type, partner_type, country_code,
+        area_code, krw_daily_limit,create_time, update_time
+    </sql>
+
+    <select id="queryUserExtByContact" resultType="org.apdoer.channel.server.model.po.UserExtPo">
+        SELECT wue.user_id userId,wue.area_code areaCode
+        FROM web_user_ext wue
+        LEFT JOIN web_user wu ON wue.user_id = wu.id
+        WHERE wu.email = #{contact} OR wu.phone = #{contact}
+    </select>
+</mapper>
