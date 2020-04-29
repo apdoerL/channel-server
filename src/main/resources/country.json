@@ -1,0 +1,884 @@
+[
+  {
+    "chineseName": "中国",
+    "commonName": "China",
+    "displayName": "中国",
+    "enable": true,
+    "formalName": "People´s Republic of China",
+    "id": "CN",
+    "telephoneCode": "86"
+  },
+  {
+    "chineseName": "日本",
+    "commonName": "Japan",
+    "displayName": "日本",
+    "enable": true,
+    "formalName": "",
+    "id": "JP",
+    "telephoneCode": "81"
+  },
+  {
+    "chineseName": "美国",
+    "commonName": "USA",
+    "displayName": "美国",
+    "enable": true,
+    "formalName": "United States of America",
+    "id": "US",
+    "telephoneCode": "1"
+  },
+  {
+    "chineseName": "德国",
+    "commonName": "Germany",
+    "displayName": "德国",
+    "enable": true,
+    "formalName": "Federal Republic of Germany",
+    "id": "DE",
+    "telephoneCode": "49"
+  },
+  {
+    "chineseName": "白俄罗斯",
+    "commonName": "Belarus",
+    "displayName": "白俄罗斯",
+    "enable": true,
+    "formalName": "Republic of Belarus",
+    "id": "BY",
+    "telephoneCode": "375"
+  },
+  {
+    "chineseName": "英国",
+    "commonName": "UK",
+    "displayName": "大不列颠及北爱尔兰联合王国",
+    "enable": true,
+    "formalName": "United Kingdom of Great Britain and Northern Ireland",
+    "id": "GB",
+    "telephoneCode": "44"
+  },
+  {
+    "chineseName": "印度",
+    "commonName": "India",
+    "displayName": "印度",
+    "enable": true,
+    "formalName": "Republic of India",
+    "id": "IN",
+    "telephoneCode": "91"
+  },
+  {
+    "chineseName": "巴西",
+    "commonName": "Brazil",
+    "displayName": "巴西",
+    "enable": true,
+    "formalName": "Federative Republic of Brazil",
+    "id": "BR",
+    "telephoneCode": "55"
+  },
+  {
+    "chineseName": "新加坡",
+    "commonName": "SGP",
+    "displayName": "新加坡",
+    "enable": true,
+    "formalName": "Republic of Singapore",
+    "id": "SG",
+    "telephoneCode": "65"
+  },
+  {
+    "chineseName": "法国",
+    "commonName": "France",
+    "displayName": "法国",
+    "enable": true,
+    "formalName": "French Republic",
+    "id": "FR",
+    "telephoneCode": "33"
+  },
+  {
+    "chineseName": "挪威",
+    "commonName": "Norway",
+    "displayName": "挪威",
+    "enable": true,
+    "formalName": "Kingdom of Norway",
+    "id": "NO",
+    "telephoneCode": "47"
+  },
+  {
+    "chineseName": "意大利",
+    "commonName": "Italy",
+    "displayName": "意大利",
+    "enable": true,
+    "formalName": "Italian Republic",
+    "id": "IT",
+    "telephoneCode": "39"
+  },
+  {
+    "chineseName": "希腊",
+    "commonName": "Greece",
+    "displayName": "希腊",
+    "enable": true,
+    "formalName": "Hellenic Republic",
+    "id": "GR",
+    "telephoneCode": "30"
+  },
+  {
+    "chineseName": "荷兰",
+    "commonName": "NED",
+    "displayName": "荷兰",
+    "enable": true,
+    "formalName": "Kingdom of the Netherlands",
+    "id": "NL",
+    "telephoneCode": "31"
+  },
+  {
+    "chineseName": "澳大利亚",
+    "commonName": "AUS",
+    "displayName": "澳大利亚",
+    "enable": true,
+    "formalName": "Commonwealth of Australia",
+    "id": "AU",
+    "telephoneCode": "61"
+  },
+  {
+    "chineseName": "加拿大",
+    "commonName": "Canada",
+    "displayName": "加拿大",
+    "enable": true,
+    "formalName": "",
+    "id": "CA",
+    "telephoneCode": "1"
+  },
+  {
+    "chineseName": "孟加拉国",
+    "commonName": "BGD",
+    "displayName": "孟加拉国",
+    "enable": true,
+    "formalName": "People&acute;s Republic of Bangladesh",
+    "id": "BD",
+    "telephoneCode": "880"
+  },
+  {
+    "chineseName": "芬兰",
+    "commonName": "Finland",
+    "displayName": "芬兰",
+    "enable": true,
+    "formalName": "Republic of Finland",
+    "id": "FI",
+    "telephoneCode": "358"
+  },
+  {
+    "chineseName": "以色列",
+    "commonName": "Israel",
+    "displayName": "以色列",
+    "enable": true,
+    "formalName": "State of Israel",
+    "id": "IL",
+    "telephoneCode": "972"
+  },
+  {
+    "chineseName": "老挝",
+    "commonName": "Laos",
+    "displayName": "老挝人民民主共和国",
+    "enable": true,
+    "formalName": "Lao People&acute;s Democratic Republic",
+    "id": "LA",
+    "telephoneCode": "856"
+  },
+  {
+    "chineseName": "卢森堡",
+    "commonName": "LUX",
+    "displayName": "卢森堡",
+    "enable": true,
+    "formalName": "Grand Duchy of Luxembourg",
+    "id": "LU",
+    "telephoneCode": "352"
+  },
+  {
+    "chineseName": "中国澳门",
+    "commonName": "Macau",
+    "displayName": "澳门",
+    "enable": true,
+    "formalName": "Macau Special Administrative Region",
+    "id": "MO",
+    "telephoneCode": "853"
+  },
+  {
+    "chineseName": "新西兰",
+    "commonName": "NZL",
+    "displayName": "新西兰",
+    "enable": true,
+    "formalName": "",
+    "id": "NZ",
+    "telephoneCode": "64"
+  },
+  {
+    "chineseName": "尼日利亚",
+    "commonName": "Nigeria",
+    "displayName": "尼日利亚",
+    "enable": true,
+    "formalName": "Federal Republic of Nigeria",
+    "id": "NG",
+    "telephoneCode": "234"
+  },
+  {
+    "chineseName": "巴基斯坦",
+    "commonName": "Pakistan",
+    "displayName": "巴基斯坦",
+    "enable": true,
+    "formalName": "Islamic Republic of Pakistan",
+    "id": "PK",
+    "telephoneCode": "92"
+  },
+  {
+    "chineseName": "菲律宾",
+    "commonName": "PH",
+    "displayName": "菲律宾",
+    "enable": true,
+    "formalName": "Republic of the Philippines",
+    "id": "PH",
+    "telephoneCode": "63"
+  },
+  {
+    "chineseName": "波兰",
+    "commonName": "Poland",
+    "displayName": "波兰",
+    "enable": true,
+    "formalName": "Republic of Poland",
+    "id": "PL",
+    "telephoneCode": "48"
+  },
+  {
+    "chineseName": "葡萄牙",
+    "commonName": "Portugal",
+    "displayName": "葡萄牙",
+    "enable": true,
+    "formalName": "Portuguese Republic",
+    "id": "PT",
+    "telephoneCode": "351"
+  },
+  {
+    "chineseName": "西班牙",
+    "commonName": "Spain",
+    "displayName": "西班牙",
+    "enable": true,
+    "formalName": "Kingdom of Spain",
+    "id": "ES",
+    "telephoneCode": "34"
+  },
+  {
+    "chineseName": "瑞士",
+    "commonName": "CH",
+    "displayName": "瑞士",
+    "enable": true,
+    "formalName": "Swiss Confederation",
+    "id": "CH",
+    "telephoneCode": "41"
+  },
+  {
+    "chineseName": "泰国",
+    "commonName": "Thailand",
+    "displayName": "泰国",
+    "enable": true,
+    "formalName": "Kingdom of Thailand",
+    "id": "TH",
+    "telephoneCode": "66"
+  },
+  {
+    "chineseName": "土耳其",
+    "commonName": "Turkey",
+    "displayName": "火鸡",
+    "enable": true,
+    "formalName": "Republic of Turkey",
+    "id": "TR",
+    "telephoneCode": "90"
+  },
+  {
+    "chineseName": "委内瑞拉",
+    "commonName": "Venezuela",
+    "displayName": "委内瑞拉玻利瓦尔共和国",
+    "enable": true,
+    "formalName": "Bolivarian Republic of Venezuela",
+    "id": "VE",
+    "telephoneCode": "58"
+  },
+  {
+    "chineseName": "越南",
+    "commonName": "Vietnam",
+    "displayName": "越南",
+    "enable": true,
+    "formalName": "Socialist Republic of Vietnam",
+    "id": "VN",
+    "telephoneCode": "84"
+  },
+  {
+    "chineseName": "印度尼西亚共和国",
+    "commonName": "Indonesia",
+    "displayName": "印度尼西亚",
+    "enable": true,
+    "formalName": "Republic of Indonesia",
+    "id": "ID",
+    "telephoneCode": "62"
+  },
+  {
+    "chineseName": "俄罗斯联邦",
+    "commonName": "Russia",
+    "displayName": "俄罗斯联邦",
+    "enable": true,
+    "formalName": "Russian Federation",
+    "id": "RU",
+    "telephoneCode": "7"
+  },
+  {
+    "chineseName": "韩国",
+    "commonName": "Korea",
+    "displayName": "大韩民国",
+    "enable": true,
+    "formalName": "Republic of Korea",
+    "id": "KR",
+    "telephoneCode": "82"
+  },
+  {
+    "chineseName": "拉脱维亚",
+    "commonName": "Latvia",
+    "displayName": "拉脱维亚",
+    "enable": true,
+    "formalName": "Republic of Latvia",
+    "id": "LV",
+    "telephoneCode": "371"
+  },
+  {
+    "chineseName": "中国台湾",
+    "commonName": "TAIWAN",
+    "displayName": "中国台湾",
+    "enable": true,
+    "formalName": "Republic&nbsp;of&nbsp;China",
+    "id": "TW",
+    "telephoneCode": "886"
+  },
+  {
+    "chineseName": "安提瓜和巴布达",
+    "commonName": "ATG",
+    "displayName": "安提瓜和巴布达",
+    "enable": true,
+    "formalName": "Antigua and Barbuda",
+    "id": "AG",
+    "telephoneCode": "1268"
+  },
+  {
+    "chineseName": "阿布哈兹",
+    "commonName": "Abkhazia ",
+    "displayName": "阿塞拜疆",
+    "enable": true,
+    "formalName": "Republic of Abkhazia",
+    "id": "AZ",
+    "telephoneCode": "7840"
+  },
+  {
+    "chineseName": "阿尔及利亚",
+    "commonName": "Algeria ",
+    "displayName": "阿根廷",
+    "enable": true,
+    "formalName": "People's Democratic Republic of Algeria",
+    "id": "AR",
+    "telephoneCode": "213"
+  },
+  {
+    "chineseName": "安哥拉",
+    "commonName": "Angola",
+    "displayName": "阿尔巴尼亚",
+    "enable": true,
+    "formalName": "The Republic of Angola",
+    "id": "AL",
+    "telephoneCode": "244"
+  },
+  {
+    "chineseName": "阿根廷",
+    "commonName": "Argentina",
+    "displayName": "奥地利",
+    "enable": true,
+    "formalName": "The Republic of Argentina",
+    "id": "AT",
+    "telephoneCode": "54"
+  },
+  {
+    "chineseName": "奥地利",
+    "commonName": "Austria",
+    "displayName": "奥地利",
+    "enable": true,
+    "formalName": "The Republic of Austria",
+    "id": "AT",
+    "telephoneCode": "43"
+  },
+  {
+    "chineseName": "不丹 ",
+    "commonName": "Bhutan",
+    "displayName": "不丹",
+    "enable": true,
+    "formalName": "Bhutan",
+    "id": "BT",
+    "telephoneCode": "975"
+  },
+  {
+    "chineseName": "玻利维亚",
+    "commonName": "Bolivia",
+    "displayName": "布维岛",
+    "enable": true,
+    "formalName": "Bolivia",
+    "id": "BV",
+    "telephoneCode": "591"
+  },
+  {
+    "chineseName": "保加利亚",
+    "commonName": "Bulgaria",
+    "displayName": "圣巴泰勒米",
+    "enable": true,
+    "formalName": "Bulgaria",
+    "id": "BL",
+    "telephoneCode": "359"
+  },
+  {
+    "chineseName": "柬埔寨",
+    "commonName": "Cambodia",
+    "displayName": "刚果（民主共和国）",
+    "enable": true,
+    "formalName": "Cambodia",
+    "id": "CD",
+    "telephoneCode": "855"
+  },
+  {
+    "chineseName": "喀麦隆",
+    "commonName": "Cameroon",
+    "displayName": "哥斯达黎加",
+    "enable": true,
+    "formalName": "Cameroon",
+    "id": "CR",
+    "telephoneCode": "237"
+  },
+  {
+    "chineseName": "中非共和国",
+    "commonName": "CAR",
+    "displayName": "哥斯达黎加",
+    "enable": true,
+    "formalName": "CAR",
+    "id": "CR",
+    "telephoneCode": "236"
+  },
+  {
+    "chineseName": "智利",
+    "commonName": "Chile",
+    "displayName": "智利",
+    "enable": true,
+    "formalName": "Chile",
+    "id": "CL",
+    "telephoneCode": "56"
+  },
+  {
+    "chineseName": "哥伦比亚",
+    "commonName": "Colombia",
+    "displayName": "",
+    "enable": true,
+    "formalName": "Colombia",
+    "id": "CB",
+    "telephoneCode": "57"
+  },
+  {
+    "chineseName": "刚果",
+    "commonName": "Congo",
+    "displayName": "刚果",
+    "enable": true,
+    "formalName": "Congo",
+    "id": "CG",
+    "telephoneCode": "242"
+  },
+  {
+    "chineseName": "克罗地亚",
+    "commonName": "Croatia",
+    "displayName": "",
+    "enable": true,
+    "formalName": "Croatia",
+    "id": "CT",
+    "telephoneCode": "385"
+  },
+  {
+    "chineseName": "古巴",
+    "commonName": "Cuba",
+    "displayName": "",
+    "enable": true,
+    "formalName": "Cuba",
+    "id": "CB",
+    "telephoneCode": "53"
+  },
+  {
+    "chineseName": "塞浦路斯",
+    "commonName": "Cyprus",
+    "displayName": "古巴",
+    "enable": true,
+    "formalName": "Cyprus",
+    "id": "CU",
+    "telephoneCode": "357"
+  },
+  {
+    "chineseName": "捷克共和国",
+    "commonName": "CZE",
+    "displayName": "捷克的",
+    "enable": true,
+    "formalName": "The Czech Republic",
+    "id": "CZ",
+    "telephoneCode": "420"
+  },
+  {
+    "chineseName": "丹麦",
+    "commonName": "Denmark",
+    "displayName": "多米尼加",
+    "enable": true,
+    "formalName": "Denmark",
+    "id": "DM",
+    "telephoneCode": "45"
+  },
+  {
+    "chineseName": "埃及",
+    "commonName": "Egypt",
+    "displayName": "",
+    "enable": true,
+    "formalName": "Egypt",
+    "id": "EP",
+    "telephoneCode": "20"
+  },
+  {
+    "chineseName": "冈比亚",
+    "commonName": "Gambia",
+    "displayName": "大不列颠及北爱尔兰联合王国",
+    "enable": true,
+    "formalName": "Gambia",
+    "id": "GB",
+    "telephoneCode": "220"
+  },
+  {
+    "chineseName": "加纳",
+    "commonName": "Ghana",
+    "displayName": "几内亚",
+    "enable": true,
+    "formalName": "Ghana",
+    "id": "GN",
+    "telephoneCode": "233"
+  },
+  {
+    "chineseName": "洪都拉斯",
+    "commonName": "Honduras",
+    "displayName": "克罗地亚",
+    "enable": true,
+    "formalName": "Honduras",
+    "id": "HR",
+    "telephoneCode": "504"
+  },
+  {
+    "chineseName": "香港",
+    "commonName": "Hong Kong",
+    "displayName": "香港",
+    "enable": true,
+    "formalName": "Hong Kong",
+    "id": "HK",
+    "telephoneCode": "852"
+  },
+  {
+    "chineseName": "匈牙利",
+    "commonName": "Hungary",
+    "displayName": "",
+    "enable": true,
+    "formalName": "Hungary",
+    "id": "HG",
+    "telephoneCode": "36"
+  },
+  {
+    "chineseName": "冰岛",
+    "commonName": "Iceland",
+    "displayName": "以色列",
+    "enable": true,
+    "formalName": "Iceland",
+    "id": "IL",
+    "telephoneCode": "354"
+  },
+  {
+    "chineseName": "伊朗",
+    "commonName": "Iran",
+    "displayName": "伊朗（伊斯兰共和国）",
+    "enable": true,
+    "formalName": "Iran",
+    "id": "IR",
+    "telephoneCode": "98"
+  },
+  {
+    "chineseName": "爱尔兰",
+    "commonName": "Ireland",
+    "displayName": "以色列",
+    "enable": true,
+    "formalName": "Ireland",
+    "id": "IL",
+    "telephoneCode": "353"
+  },
+  {
+    "chineseName": "黎巴嫩",
+    "commonName": "Lebanon",
+    "displayName": "",
+    "enable": true,
+    "formalName": "Lebanon",
+    "id": "LN",
+    "telephoneCode": "961"
+  },
+  {
+    "chineseName": "澳门",
+    "commonName": "Macau",
+    "displayName": "毛里求斯",
+    "enable": true,
+    "formalName": "Macau",
+    "id": "MU",
+    "telephoneCode": "853"
+  },
+  {
+    "chineseName": "马来西亚",
+    "commonName": "Malaysia",
+    "displayName": "蒙特塞拉特",
+    "enable": true,
+    "formalName": "Malaysia",
+    "id": "MS",
+    "telephoneCode": "60"
+  },
+  {
+    "chineseName": "马耳他",
+    "commonName": "Malta",
+    "displayName": "马里",
+    "enable": true,
+    "formalName": "Malta",
+    "id": "ML",
+    "telephoneCode": "356"
+  },
+  {
+    "chineseName": "墨西哥",
+    "commonName": "Mexico",
+    "displayName": "摩纳哥",
+    "enable": true,
+    "formalName": "Mexico",
+    "id": "MC",
+    "telephoneCode": "52"
+  },
+  {
+    "chineseName": "蒙古",
+    "commonName": "Mongolia",
+    "displayName": "马达加斯加",
+    "enable": true,
+    "formalName": "Mongolia",
+    "id": "MG",
+    "telephoneCode": "976"
+  },
+  {
+    "chineseName": "尼泊尔",
+    "commonName": "Nepal",
+    "displayName": "尼泊尔",
+    "enable": true,
+    "formalName": "Nepal",
+    "id": "NP",
+    "telephoneCode": "977"
+  },
+  {
+    "chineseName": "朝鲜",
+    "commonName": "DPRK",
+    "displayName": "丹麦",
+    "enable": true,
+    "formalName": "Democratic People's Republic of Korea",
+    "id": "DK",
+    "telephoneCode": "850"
+  },
+  {
+    "chineseName": "罗马尼亚",
+    "commonName": "Romania",
+    "displayName": "",
+    "enable": true,
+    "formalName": "Romania",
+    "id": "RN",
+    "telephoneCode": "40"
+  },
+  {
+    "chineseName": "瑞典",
+    "commonName": "Sweden",
+    "displayName": "苏丹",
+    "enable": true,
+    "formalName": "Sweden",
+    "id": "SD",
+    "telephoneCode": "46"
+  },
+  {
+    "chineseName": "乌克兰",
+    "commonName": "Ukraine",
+    "displayName": "",
+    "enable": true,
+    "formalName": "Ukraine",
+    "id": "UN",
+    "telephoneCode": "380"
+  },
+  {
+    "chineseName": "南非",
+    "commonName": "ZAF",
+    "displayName": "",
+    "enable": true,
+    "formalName": "The Republic of South Africa",
+    "id": "ZF",
+    "telephoneCode": "27"
+  },
+  {
+    "chineseName": "斯洛文尼亚",
+    "commonName": "Slovenia",
+    "displayName": "塞内加尔",
+    "enable": true,
+    "formalName": "Slovenia",
+    "id": "SN",
+    "telephoneCode": "386"
+  },
+  {
+    "chineseName": "沙特阿拉伯",
+    "commonName": "SA",
+    "displayName": "沙特阿拉伯",
+    "enable": true,
+    "formalName": "Kingdom of Saudi Arabia",
+    "id": "SA",
+    "telephoneCode": "966"
+  },
+  {
+    "chineseName": "津巴布韦 ",
+    "commonName": "Zimbabwe",
+    "displayName": "",
+    "enable": true,
+    "formalName": "Republic of Zimbabwe",
+    "id": "ZE",
+    "telephoneCode": "263"
+  },
+  {
+    "chineseName": "赞比亚",
+    "commonName": "Zambia",
+    "displayName": "南非",
+    "enable": true,
+    "formalName": "The Republic of Zambia",
+    "id": "ZA",
+    "telephoneCode": "260"
+  },
+  {
+    "chineseName": "也门",
+    "commonName": "Yemen",
+    "displayName": "",
+    "enable": true,
+    "formalName": "The Republic of Yemen",
+    "id": "YM",
+    "telephoneCode": "967"
+  },
+  {
+    "chineseName": "瓦努阿图",
+    "commonName": "Vanuatu",
+    "displayName": "瓦努阿图",
+    "enable": true,
+    "formalName": "Republic of Vanuatu",
+    "id": "VU",
+    "telephoneCode": "678"
+  },
+  {
+    "chineseName": "乌兹别克斯坦",
+    "commonName": "UZB",
+    "displayName": "",
+    "enable": true,
+    "formalName": "The Republic of Uzbekistan",
+    "id": "UB",
+    "telephoneCode": "998"
+  },
+  {
+    "chineseName": "乌拉圭",
+    "commonName": "Uruguay",
+    "displayName": "乌拉圭",
+    "enable": true,
+    "formalName": "The Oriental Republic of Uruguay",
+    "id": "UY",
+    "telephoneCode": "598"
+  },
+  {
+    "chineseName": "乌干达",
+    "commonName": "Uganda",
+    "displayName": "乌克兰",
+    "enable": true,
+    "formalName": "The Republic of Uganda",
+    "id": "UA",
+    "telephoneCode": "256"
+  },
+  {
+    "chineseName": "突尼斯",
+    "commonName": "Tunisia",
+    "displayName": "",
+    "enable": true,
+    "formalName": "The Republic of Tunisia",
+    "id": "TS",
+    "telephoneCode": "216"
+  },
+  {
+    "chineseName": "汤加",
+    "commonName": "Tonga",
+    "displayName": "",
+    "enable": true,
+    "formalName": "The Kingdom of Tonga",
+    "id": "TA",
+    "telephoneCode": "675"
+  },
+  {
+    "chineseName": "多哥",
+    "commonName": "Togo",
+    "displayName": "汤加",
+    "enable": true,
+    "formalName": "The Republic of Togo",
+    "id": "TO",
+    "telephoneCode": "228"
+  },
+  {
+    "chineseName": "叙利亚",
+    "commonName": "Syria",
+    "displayName": "沙特阿拉伯",
+    "enable": true,
+    "formalName": "The Syrian Arab Republic",
+    "id": "SA",
+    "telephoneCode": "963"
+  },
+  {
+    "chineseName": "斯威士兰",
+    "commonName": "SZ",
+    "displayName": "斯威士兰",
+    "enable": true,
+    "formalName": "The Kingdom of Swaziland",
+    "id": "SZ",
+    "telephoneCode": "268"
+  },
+  {
+    "chineseName": "苏里南",
+    "commonName": "Suriname",
+    "displayName": "瑞典",
+    "enable": true,
+    "formalName": "The Republic of Suriname",
+    "id": "SE",
+    "telephoneCode": "597"
+  },
+  {
+    "chineseName": "苏丹",
+    "commonName": "Sudan",
+    "displayName": "塞内加尔",
+    "enable": true,
+    "formalName": "The Republic of Sudan",
+    "id": "SN",
+    "telephoneCode": "249"
+  },
+  {
+    "chineseName": "卢旺达",
+    "commonName": "Rwanda",
+    "displayName": "",
+    "enable": true,
+    "formalName": "Republic of Rwanda",
+    "id": "RA",
+    "telephoneCode": "250"
+  },
+  {
+    "chineseName": "秘鲁",
+    "commonName": "Peru",
+    "displayName": "",
+    "enable": true,
+    "formalName": "Republic of Peru",
+    "id": "PU",
+    "telephoneCode": "51"
+  }
+]
