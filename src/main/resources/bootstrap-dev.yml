@@ -2,19 +2,17 @@ server:
   port: 8005
 
 spring:
-  application:
-    name: channel-server
   cloud:
     config:
+      name: channel-server            #对应{application}部分
+      profile: dev                         #对应{profile}部分
+      uri: http://localhost:9090        #配置中心的具体地址
+      label: dev                        #对应git的分支。如果配置中心使用的是本地存储，则该参数无用
       discovery:
-        enabled: true
-        service-id: spring-config-server
-      profile: dev
-      label: dev
-
+        service-id: config-server      #指定配置中心的service-id，便于扩展为高可用配置集群
 eureka:
   instance:
     preferIpAddress: true
   client:
     serviceUrl:
-      defaultZone: http://newcoin-discovery-ack-springcloud-eureka-svc:8761/eureka
+      defaultZone: http://localhost:8761/eureka
